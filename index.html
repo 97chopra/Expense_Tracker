@@ -27,15 +27,15 @@
     <div class="summary-grid">
       <div class="summary-card">
         <span class="s-label">Total Balance</span>
-        <span class="s-value" id="balDisplay">R 0.00</span>
+        <span class="s-value" id="balDisplay">$ 0.00</span>
       </div>
       <div class="summary-card income-card">
         <span class="s-label">Total Income</span>
-        <span class="s-value green" id="incDisplay">R 0.00</span>
+        <span class="s-value green" id="incDisplay">$ 0.00</span>
       </div>
       <div class="summary-card expense-card">
         <span class="s-label">Total Expenses</span>
-        <span class="s-value red" id="expDisplay">R 0.00</span>
+        <span class="s-value red" id="expDisplay">$ 0.00</span>
       </div>
     </div>
 
@@ -48,7 +48,7 @@
         <div class="chart-wrap">
           <canvas id="donutChart"></canvas>
           <div class="chart-center">
-            <span class="chart-center-amt" id="chartAmt">R 0</span>
+            <span class="chart-center-amt" id="chartAmt">$ 0</span>
             <span class="chart-center-lbl">spent</span>
           </div>
         </div>
@@ -63,7 +63,7 @@
         <div class="card-title">Quick Add</div>
         <div class="add-form">
           <input  type="text"   class="form-input full" id="qDesc" placeholder="Description" />
-          <input  type="number" class="form-input"      id="qAmt"  placeholder="Amount (R)" min="0" step="0.01" />
+          <input  type="number" class="form-input"      id="qAmt"  placeholder="Amount ($)" min="0" step="0.01" />
           <select class="form-select"                   id="qType">
             <option value="expense">Expense</option>
             <option value="income">Income</option>
@@ -112,8 +112,8 @@
       </div>
       <div class="modal-form">
         <span class="form-label">Description</span>
-        <input type="text"   class="form-input" id="mDesc" placeholder="e.g. Checkers Groceries" />
-        <span class="form-label">Amount (R)</span>
+        <input type="text"   class="form-input" id="mDesc" placeholder="e.g. Countdown Groceries" />
+        <span class="form-label">Amount ($)</span>
         <input type="number" class="form-input" id="mAmt"  placeholder="0.00" min="0" step="0.01" />
         <span class="form-label">Type</span>
         <select class="form-select" id="mType">
