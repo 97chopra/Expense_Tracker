@@ -1,0 +1,118 @@
+# ExpenseIQ 💸
+
+A modern, dark-themed expense tracker web app built with vanilla JavaScript, HTML and CSS. Track your income, expenses, and budget goals with real-time visual feedback.
+
+> 🔗 > **Live Demo:** [ExpenseIQ](https://97chopra.github.io/Expense_Tracker/)
+---
+
+## 📸 Preview
+
+![ExpenseIQ Screenshot](preview.png)
+
+---
+
+## ✨ Features
+
+- 📊 **Spending Breakdown** — Live donut chart showing expenses by category
+- 💳 **Transaction Management** — Add, view and delete income & expenses
+- 🎯 **Budget Goals** — Progress bars that warn when nearing or exceeding limits
+- 🔍 **Search & Filter** — Filter by category or search by name instantly
+- 💾 **localStorage Persistence** — Data stays saved after browser refresh
+- 📥 **CSV Export** — Download all transactions as a spreadsheet
+- 📱 **Responsive Design** — Works on desktop and mobile
+- 🌙 **Dark Dashboard Theme** — Professional fintech-inspired UI
+
+---
+
+## 🛠️ Built With
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structure and layout |
+| CSS3 | Dark theme styling, animations, responsive design |
+| JavaScript (ES6+) | App logic, localStorage, DOM manipulation |
+| Chart.js | Interactive donut chart |
+
+---
+
+## 📂 Project Structure
+
+```
+Expense_Tracker/
+├── index.html      # Main HTML structure
+├── style.css       # Dark dashboard styles
+├── app.js          # JavaScript logic
+└── README.md       # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### Run Locally
+
+1. Clone the repository
+```bash
+git clone https://github.com/97chopra/Expense_Tracker.git
+```
+
+2. Navigate into the project folder
+```bash
+cd Expense_Tracker
+```
+
+3. Open `index.html` in your browser
+```bash
+# Simply double click index.html
+# OR open with Live Server in VS Code
+```
+
+No installations or dependencies required! 
+
+---
+
+## 💡 How to Use
+
+1. **Add a transaction** — Use the Quick Add form or click **+ Add Transaction**
+2. **Select type** — Choose between Income or Expense
+3. **Pick a category** — Food, Transport, Entertainment, Utilities or Other
+4. **View breakdown** — Watch the donut chart and budget bars update live
+5. **Filter history** — Use the filter buttons or search bar to find transactions
+6. **Export data** — Click **Export CSV** to download your transactions
+
+---
+
+## 📊 Budget Limits (Default)
+
+| Category | Budget |
+|---|---|
+| 🛒 Food & Groceries | $ 1,500 |
+| 🚌 Transport | $ 700 |
+| 🎬 Entertainment | $ 300 |
+| 💡 Utilities | $ 500 |
+
+> Budget bars turn **amber** at 85% and **red** at 100% to alert overspending.
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Deploy to GitHub Pages
+- [ ] Add monthly/yearly view toggle
+- [ ] Custom budget limits set by user
+- [ ] Dark/light theme toggle
+- [ ] React version with backend integration
+
+---
+
+## 👨‍💻 Author
+
+**Aarti Chopra**
+- GitHub: [@97chopra](https://github.com/97chopra)
+- Final Year Student — Software Programming, Data Science & AI
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
