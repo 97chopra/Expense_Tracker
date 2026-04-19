@@ -91,14 +91,14 @@ function renderSummary() {
   const balance = income - expense;
 
   document.getElementById('balDisplay').textContent =
-    'R ' + Math.abs(balance).toLocaleString('en-ZA', { minimumFractionDigits: 2 }) +
+    '$ ' + Math.abs(balance).toLocaleString('en-ZA', { minimumFractionDigits: 2 }) +
     (balance < 0 ? ' (-)' : '');
 
   document.getElementById('incDisplay').textContent =
-    'R ' + income.toLocaleString('en-ZA', { minimumFractionDigits: 2 });
+    '$ ' + income.toLocaleString('en-ZA', { minimumFractionDigits: 2 });
 
   document.getElementById('expDisplay').textContent =
-    'R ' + expense.toLocaleString('en-ZA', { minimumFractionDigits: 2 });
+    '$ ' + expense.toLocaleString('en-ZA', { minimumFractionDigits: 2 });
 }
 
 // DONUT CHART
@@ -118,7 +118,7 @@ function renderChart() {
 
   // Update center text
   document.getElementById('chartAmt').textContent =
-    'R ' + total.toLocaleString('en-ZA', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+    '$ ' + total.toLocaleString('en-ZA', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 
   // Destroy old chart before creating new one
   const ctx = document.getElementById('donutChart').getContext('2d');
@@ -193,8 +193,8 @@ function renderBudgets() {
           <div class="budget-row">
             <span class="budget-name">${cat}</span>
             <span class="budget-amt" style="color:${textColor}">
-              R ${s.toLocaleString('en-ZA', { minimumFractionDigits: 0 })} /
-              R ${limit.toLocaleString('en-ZA')}
+              R ${s.toLocaleString('en-NZ', { minimumFractionDigits: 0 })} /
+              R ${limit.toLocaleString('en-NZ')}
             </span>
           </div>
           <div class="bar-bg">
